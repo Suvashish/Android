@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MovieTrailers</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="film01">
+        <item>Terminator</item>
+        <item>A human-looking indestructible cyborg is sent from 2029 
+            to 1984 to assassinate a waitress, whose unborn son will 
+            lead humanity in a war against the machines, while a soldier 
+            from that war is sent to protect her at all costs.</item>
+        <item>film1.jpg</item>
+        <item>terminator</item>
+    </string-array>
+    <string-array name="film02">
+        <item>Naked Lunch</item>
+        <item> After developing an addiction to the substance he uses to kill bugs, 
+    	an exterminator accidentally murders his wife and becomes involved in a 
+    	secret government plot being orchestrated by giant bugs in a port town in 
+    	North Africa.</item>
+        <item>film2.jpg</item>
+        <item>naked_lunch</item>
+    </string-array>
+    <string-array name="film03">
+        <item>Crash</item>
+        <item> After getting into a serious car accident, a TV director discovers an underground
+             sub-culture of scarred, omnisexual car-crash victims who use car accidents and the raw 
+             sexual energy they produce to try to rejuvenate his sex life with his wife.</item>
+        <item>film3.jpg</item>
+        <item>crash</item>
+    </string-array>
+    <string-array name="film04">
+        <item>The Usual Suspects</item>
+        <item> A sole survivor tells of the twisty events leading up to a horrific gun 
+            battle on a boat, which begin when five criminals meet at a seemingly random 
+            police lineup.</item>
+        <item>film4.jpg</item>
+        <item>the_usual_suspects</item>
+    </string-array>
+
+    <array name="allFirms">
+        <item>@array/film01</item>
+        <item>@array/film02</item>
+        <item>@array/film03</item>
+        <item>@array/film04</item>
+    </array>
+
+    <string name="title_activity_view_films">ViewFilms</string>
+    <string name="title_activity_single_film">SingleFilmActivity</string>
+    <string name="title_activity_view_film_trailer">ViewFilmTrailer</string>
+    <string name="title_activity_delete">DeleteActivity</string>
+    <string name="btnDeleteLabel">Delete</string>
+    <string name="btnCancelDeleteLabel">Back</string>
+    <string name="deletePrompt">Really delete this film? Press back to cancel.</string>
+    <string name="title_activity_view_trailer">ViewTrailer</string>
+    <string name="btnPlayPauseLabel">Play/Pause</string>
+    <string name="btnReverseLabel">&lt;&lt;</string>
+    <string name="btnForwardLabel">>></string>
+    <string name="title_activity_movie_trailers">MovieTrailers</string>
+    <string name="btnViewFilms">View Films</string>
+    <string name="btnAddFilns">Add Films</string>
+    <string name="txtAppIntro">Introduction</string>
+    <string name="title_activity_add_film">AddFilm</string>
+    <string name="lblFilmTitle">Film Title</string>
+    <string name="lblFilmDescription">Description</string>
+    <string name="btnAddFilmLabel">Add Film</string>
+    <string name="btnPlayLabel">Play</string>
+    <string name="btnStopLabel">Stop</string>
+    <string name="btnPauseLabel">II</string>
+    <string name="btnBackLabel">&lt;&lt;</string>
+
+</resources>

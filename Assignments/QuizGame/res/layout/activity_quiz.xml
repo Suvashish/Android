@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="w0269804.quizgame.QuizActivity" >
+
+<RadioGroup
+    android:id="@+id/radGroupAnswers"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/btnNext"
+    android:layout_alignParentLeft="true"
+    android:layout_marginBottom="22dp"
+    android:layout_marginLeft="15dp" >
+
+    <RadioButton
+        android:id="@+id/radAnswerOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/radButtonTextSize" />
+
+    <RadioButton
+        android:id="@+id/radAnswerTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/radButtonTextSize" />
+
+    <RadioButton
+        android:id="@+id/radAnswerThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/radButtonTextSize" />
+
+    <RadioButton
+        android:id="@+id/radAnswerFour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/radButtonTextSize" />
+
+</RadioGroup>
+
+<Button
+    android:id="@+id/btnNext"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="24dp"
+    android:text="@string/btnNextLbl" />
+
+<TextView
+    android:id="@+id/tvPlayerName"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="46dp" />
+
+<TextView
+    android:id="@+id/txtQuestion"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textSize="@dimen/radButtonTextSize" />
+
+</RelativeLayout>

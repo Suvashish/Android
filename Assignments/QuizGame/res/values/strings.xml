@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QuizGame</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tvNameLbl">Enter Name</string>
+    <string name="btnStartQuizLbl">Start Quiz!</string>
+    <string name="title_activity_quiz">QuizActivity</string>
+    <string name="btnNextLbl">Next</string>
+    <string name="title_activity_evaluation">EvaluationActivity</string>
+    <string name="btnRestartLbl">Restart</string>
+    <string name="txtEvaluation">Evaluation Results</string>
+    <string name="quizActivityLabel">Quiz</string>
+    <string name="nameEntryActivityLabel">Enter Name</string>
+    <string name="evaluationActivityLabel">Results!</string>
+    <string name="btnQuitLbl">Quit</string>
+
+</resources>
